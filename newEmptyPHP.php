@@ -60,7 +60,7 @@ if ($conn->query($sql2) === TRUE) {
 if ($conn->query($sql3) === TRUE) {
   echo "Insertion Success";
 } else {
-  echo "Error kame: " . $conn->error;
+  echo "Error : " . $conn->error;
 }
 $conn->close();
    
